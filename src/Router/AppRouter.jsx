@@ -5,6 +5,8 @@ import Home from '../Pages/HomePage';
 import About from '../Pages/AboutPage';
 import Contact from '../Pages/Contact';
 import Join from '../Pages/Join';
+import HomePage from '../Pages/HomePage';
+import AboutPage from '../Pages/AboutPage';
 
 const AppRouter = createBrowserRouter([
     {
@@ -13,13 +15,13 @@ const AppRouter = createBrowserRouter([
         children: [
          {
             path: '/',
-            element: <Home />,
+            element: <HomePage />,
             index: true,
          },
          
          {
             path: '/about',
-            element: <About />,
+            element: <AboutPage />,
          },
          
          {
