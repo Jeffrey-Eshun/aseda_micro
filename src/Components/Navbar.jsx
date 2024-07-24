@@ -15,7 +15,7 @@ const Navbar =()=>{
 
     <div className="img-acc-loc-cont">
       <div className="logo-image">
-        <img src="" alt="IMAGE" />
+        <img src="public/aseda logo.jpg" alt="IMAGE" />
         <h4>|   Home</h4>
       </div>
       <div className="acc">
