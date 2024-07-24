@@ -18,7 +18,26 @@
   width: 19.7%;
   height:257vh;
   border: 1px solid rgb(224, 112, 112);
+  background-color: rgb(12, 12, 12);
   
+}
+
+.entries >h4{
+  color: white;
+  text-align: center;
+  font-size: large;
+}
+#entry{
+  width: 90%;
+  height: 3rem;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.entries option:hover{
+  cursor: pointer;
+  background-color: beige;
   
 }
 
@@ -28,14 +47,25 @@
   background-color: hsl(0, 47%, 21%);
 }
 
-.image-text,h2,p{
+.image-text{
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
   justify-content: center;
   color: white;
-
 }
+
+.image-text >h2{
+  width: 40%;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+.image-text >p{
+  width: 40%;
+  margin-left: 2%;
+}
+
+
+
 
 
 
@@ -48,6 +78,12 @@
   left: 55%;
 }
 
+.picture img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
 .contain-text{
   width: 80%;
   height: 30vh;
@@ -56,6 +92,7 @@
 }
 .contain-text >p{
   color: black;
+  margin: 50px;
 }
 
 hr{
@@ -86,7 +123,6 @@ hr{
 .image-hold{
   width: 100%;
   height: 21vh;
-  border: 1px solid black;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -95,6 +131,9 @@ hr{
 .image-hold img{
   display: flex;
   justify-content: center;
+  width: 100%;
+  height: 20vh;
+  border-radius: 30px;
 }
 .txt{
   width: 100%;
