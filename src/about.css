@@ -1,0 +1,30 @@
+.about {
+    width: 100%;
+    height: auto;
+}
+
+.back .business {
+    width: 100%;
+    height: 60vh;
+    z-index: 1;  
+}
+
+.h1 {
+    position: absolute;
+    left: 610px;
+    top: 220px;
+    color: white;
+}
+
+.text {
+    display: flex;
+}
+
+.text .fine .sum {
+    color: black;
+}
+
+.text .cooperate {
+    width: 500px;
+    height: 500px;
+}

@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import './navbar.css';
 import './index.css'
+import './about.css'
 
 function App() {
 
