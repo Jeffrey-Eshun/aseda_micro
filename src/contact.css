@@ -1,0 +1,54 @@
+.contact {
+    width: 100%;
+    height: auto;
+}
+
+.con-img .telephone {
+    width: 100%;
+    height: 60vh;
+    z-index: 1;
+}
+
+.con-head {
+    position: absolute;
+    left: 610px;
+    top: 220px;
+    color: white;
+}
+
+.business-con {
+    text-align: center;
+}
+
+.build-img {
+    display: flex;
+    justify-content: center;
+}
+
+.build-1 {
+    margin-right: 200px;
+}
+
+.build-2 {
+    width: 400px;
+    height: auto;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.build-2 .name {
+    display: block;
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 70px;
+
+}
+
+.build-2 .btn {
+    margin-left: 70px;
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+}
