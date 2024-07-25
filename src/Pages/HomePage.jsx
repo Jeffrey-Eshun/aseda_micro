@@ -177,7 +177,7 @@ const HomePage=()=> {
             <a href="#">Instagram</a>
           </div>
           <div className="hom-logo">
-            <img src="public/footerlogo.jpg" alt="image" />
+            <img src="" alt="image" />
           </div>
           <hr />
         </div>
