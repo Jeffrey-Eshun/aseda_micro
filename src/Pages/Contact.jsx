@@ -22,16 +22,16 @@ function Contact() {
           <p>If you’d like to know more about how we can help you plan,<br/> schedule, and manage your time more effectively on every<br/> development project, simply fill out the form to get in touch<br/> with one of our experts.</p>
         </div>
         <div className="build-2">
-          <form action="###">
-            <input type="text" placeholder="Name" className='name'/>
+          <form action="active">
+            <input type="text" placeholder="Name" className='name' required/>
             <input type="email" placeholder="Enter Email" className='name' required/>
-            <input type="text" placeholder="www." className='name'/>
             <input typeof="number" placeholder="Phone Number" className='name'/>
-            <input type="text" placeholder="Message" className='name'/>
-            <button type="submit" className='btn'>Send</button>
+            <textarea name="text" id="message" placeholder='enter message'></textarea>
+            <button type="submit" className='name'>Send</button>
           </form>
         </div>
       </div>
+      
     </div>
   )
 }

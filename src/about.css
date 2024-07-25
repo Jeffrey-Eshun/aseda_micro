@@ -32,6 +32,10 @@
     height: 500px;
 }
 
+.cooperate img{
+    border-radius: 20px;
+}
+
 .work {
     text-align: center;
     margin-top: 100px;
@@ -47,20 +51,24 @@
 }
 
 .team-2 {
-    display: grid;
-    grid-template-columns: 320px 320px 320px 320px;
-    gap: 15px;
-    height: 450px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+grid-template-rows: 2fr ;
+gap: 10px;
+
 }
 
 .squad {
-    border: 2px solid black;
-    text-align: center;
+ display:  flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
 }
 
 .squad .diff {
-    width: 100%;
+    width: 90%;
     height: 300px;
+    border-radius: 12px 12px 0 0;
 }
 
 .clients {

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const HomePage=()=> {
   return (
@@ -9,6 +10,10 @@ const HomePage=()=> {
                 <div className="image-text">
                   <h2>FINANCE</h2>
                   <p>Aseda Bank reported a robust financial performance this quarter, with a 15% increase in net income, driven by strong loan growth and improved asset quality. Customer deposits rose by 10%, reflecting confidence in our services. The bank remains well-capitalized, maintaining a strong balance sheet and liquidity position.</p>
+                </div>
+                <div className="hm-btn">
+                  <Link to="/login"><button>Sign Up</button></Link>
+                  <Link to="/login"><button>Login</button></Link>
                 </div>
               </div>
             </div>
@@ -167,20 +172,7 @@ const HomePage=()=> {
            
           
         </div>
-        <div className="last-footer">
-          <div className="contact-info">
-            <h1>Contact Us</h1>
-            <a href="#">Linkdin</a>
-            <a href="#">Gmail</a>
-            <a href="#">X tweet</a>
-            <a href="#">Youtube</a>
-            <a href="#">Instagram</a>
-          </div>
-          <div className="hom-logo">
-            <img src="" alt="image" />
-          </div>
-          <hr />
-        </div>
+        
         
 
       

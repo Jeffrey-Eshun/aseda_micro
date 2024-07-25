@@ -5,6 +5,7 @@ import './navbar.css';
 import './index.css'
 import './about.css'
 import './contact.css'
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Navbar />
       <Outlet />
+      <Footer/>
     </>
   )
 }
