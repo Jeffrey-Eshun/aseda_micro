@@ -16,7 +16,7 @@ const Navbar =()=>{
     <div className="img-acc-loc-cont">
       <div className="logo-image">
         <img src="" alt="IMAGE" />
-        <h4>|   Home</h4>
+        <p>|   Home</p>
       </div>
       <div className="acc">
         <select name="text" id="select">

@@ -32,7 +32,7 @@ const HomePage=()=> {
                 </select>
               </div>
               <div className="entries">
-                <h4>Principal Staff Info</h4>
+                <h4>Kids Investment</h4>
                 <select name="text" id="entry">
                   <option value="">Staff Support</option>
                   <option value="">Staff Confidence</option>
@@ -41,7 +41,16 @@ const HomePage=()=> {
                 </select>
               </div>
               <div className="entries">
-                <h4>Principal Staff Info</h4>
+                <h4>SUSU Levels</h4>
+                <select name="text" id="entry">
+                  <option value="1">Staff Support</option>
+                  <option value="2">Staff Confidence</option>
+                  <option value="3">Staff Value</option>
+                  <option value="4">Staff Credebity</option>
+                </select>
+              </div>
+              <div className="entries">
+                <h4>For Traders</h4>
                 <select name="text" id="entry">
                   <option value="">Staff Support</option>
                   <option value="">Staff Confidence</option>
@@ -50,16 +59,7 @@ const HomePage=()=> {
                 </select>
               </div>
               <div className="entries">
-                <h4>Principal Staff Info</h4>
-                <select name="text" id="entry">
-                  <option value="">Staff Support</option>
-                  <option value="">Staff Confidence</option>
-                  <option value="">Staff Value</option>
-                  <option value="">Staff Credebity</option>
-                </select>
-              </div>
-              <div className="entries">
-                <h4>Principal Staff Info</h4>
+                <h4>Large Scale Businesses</h4>
                 <select name="text" id="entry">
                   <option value="">Staff Support</option>
                   <option value="">Staff Confidence</option>
@@ -69,12 +69,11 @@ const HomePage=()=> {
               </div>
             </div>
                <div className="picture">
-                <img src="public/images.png" alt="Image" />
+                <img src="public/ASEDA MICROFINANCE.png" alt="Image" />
                </div>     
       </div>
       <div className="contain-text">
         <p> 
-                    Aseda Bank
 
             Aseda Bank is a leading financial institution committed to providing exceptional banking services to individuals, businesses, and communities. Established over a century ago, Aseda Bank has grown into a trusted name, known for its customer-centric approach and innovative solutions. We offer a comprehensive range of financial products, including savings and checking accounts, personal and business loans, mortgages, and investment services.
 
@@ -114,54 +113,54 @@ const HomePage=()=> {
             </div>
             <div className="grid-miss">   <div className="image-hold"><img src="public/images (1).png" alt="IMAGE" />  </div>  
                     <div className="txt">
-                        <h3>TEXT</h3>
+                        <h3>BANK REGULATION</h3>
                    </div>
                    <div className="txt-1">
-                    <p>Text</p>
+                    <p>Bank regulation ensures stability, consumer protection, and prevents financial crises.</p>
                    </div>
             </div>
             <div className="grid-miss">   <div className="image-hold"><img src="public/images.jpg" alt="IMAGE" />  </div>  
                     <div className="txt">
-                        <h3>TEXT</h3>
+                        <h3>DATA</h3>
                    </div>
                    <div className="txt-1">
-                    <p>Text</p>
+                    <p>Aseda Bank's quarterly data shows growth in loans and deposits.</p>
                    </div>
             </div>
             <div className="grid-miss">
                  <div className="image-hold"><img src="public/images (2).jpg" alt="IMAGE" />  </div>  
                     <div className="txt">
-                        <h3>TEXT</h3>
+                        <h3>STATISTICS</h3>
                    </div>
                    <div className="txt-1">
-                    <p>Text</p>
+                    <p>Aseda Bank's assets increased 12%, with a 5% loan growth.</p>
                    </div>
             </div>
             <div className="grid-miss">
                  <div className="image-hold"><img src="public/images (3).jpg" alt="IMAGE" />  </div>  
                     <div className="txt">
-                        <h3>TEXT</h3>
+                        <h3>MOBILE APP SERVICE</h3>
                    </div>
                    <div className="txt-1">
-                    <p>Text</p>
+                    <p>Mobile banking offers convenient, secure access to financial services anytime.</p>
                    </div>
             </div>
             <div className="grid-miss">
                  <div className="image-hold"><img src="public/images (4).jpg" alt="IMAGE" />  </div>  
                     <div className="txt">
-                        <h3>TEXT</h3>
+                        <h3>COIN</h3>
                    </div>
                    <div className="txt-1">
-                    <p>Text</p>
+                    <p>Coin Bank offers secure, innovative digital solutions for financial transactions.</p>
                    </div>
             </div>
             <div className="grid-miss">
                  <div className="image-hold"><img src="public/download (1).jpg" alt="IMAGE" />  </div>  
                     <div className="txt">
-                        <h3>TEXT</h3>
+                        <h3>DISTRIBUTION</h3>
                    </div>
                    <div className="txt-1">
-                    <p>Text</p>
+                    <p>Banks distribute services through branches, ATMs, online platforms, and mobile apps.</p>
                    </div>
             </div>
           
@@ -176,6 +175,9 @@ const HomePage=()=> {
             <a href="#">X tweet</a>
             <a href="#">Youtube</a>
             <a href="#">Instagram</a>
+          </div>
+          <div className="hom-logo">
+            <img src="" alt="image" />
           </div>
           <hr />
         </div>
