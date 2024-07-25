@@ -146,8 +146,7 @@ hr{
 
 .grid-miss:hover{
   cursor: pointer;
-  opacity: 0.5;
-  zoom: 120%;
+  zoom: 108%;
 }
 
 .last-footer {

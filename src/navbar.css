@@ -2,9 +2,11 @@
   width: 100%;
   height: 5vh;
   text-decoration: none;
+  display: flex;
+  justify-content: end;
 }
 
-.frst-nav li{
+.frst-nav ul li{
   display: inline;
   margin: 30px;
 }
