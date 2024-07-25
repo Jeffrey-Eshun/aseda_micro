@@ -2,6 +2,10 @@ import React from "react";
 import Business from "../img/business.jpg";
 import Coop from "../img/cooporate.png"
 import Diff from "../img/diff.jpg"
+import Girls from "../img/girls.jpg"
+import Photo from "../img/photography.jpg"
+import Old from "../img/senior.jpg"
+import Color from "../img/colours.jpg"
 
 function AboutPage() {
   return (
@@ -78,10 +82,18 @@ function AboutPage() {
           in the future.</p>
           </div>
           <div className="client-2">
-            <div className="cli">1</div>
-            <div className="cli">2</div>
-            <div className="cli">3</div>
-            <div className="cli">4</div>
+            <div className="cli">
+              <img src={Girls} alt="" />
+            </div>
+            <div className="cli">
+              <img src={Old} alt="" />
+            </div>
+            <div className="cli">
+              <img src={Photo} alt="" />
+            </div>
+            <div className="cli">
+              <img src={Color} alt="" />
+            </div>
           </div>
       </div>
 
