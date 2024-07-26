@@ -382,18 +382,17 @@ hr{
 @media(min-width:481px) and (max-width:1200px){
   .side-outline{
    width: 100%;
-   height: 60vh;
+   height: 70vh;
   }
   
   .sidebar{
-    background-color: hsla(39, 100%, 50%, 0.918);
-    border: 2px solid blue;
-    width: 75%;
-    height: 80vh;
+    width: 100%;
+    height: 90vh;
     float: right;
     margin-left: 5px;
   }
   .outline{
+    display: none;
     width: 25%;
     height:300vh;
     background-color: black;    
@@ -475,8 +474,7 @@ hr{
   }
   
   .contain-text{
-    border: 1px solid gold;
-    width: 75%;
+    width: 100%;
     height: 50vh;
     float: right;
   }
@@ -491,11 +489,11 @@ hr{
   .grid-mission{
     float: right;
     display: grid;
-    grid-template-columns: 230px 230px;
+    grid-template-columns: 230px 230px 230px;
     grid-template-rows: 330px 330px ;
     grid-auto-rows: 200px;
-    gap: 80px;
-    padding:80px 90px 90px 90px;
+    gap: 40px;
+    padding:90px 90px 90px 90px;
     margin: 0;
     
     

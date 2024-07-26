@@ -120,9 +120,9 @@ ul li{
   width: 40%;
 }
 
-@media(min-width:481px)and(max-width:1200px){
-  .frst-nav{
-    background-color: pink;
-  }
+@media(min-width:481px) and (max-width:1200px){
+    .frst-nav{
+      height: 5vh;
+    }
   
 }
