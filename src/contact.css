@@ -20,6 +20,14 @@
     text-align: center;
 }
 
+.business-con h1 {
+    font-size: 2.5rem;
+}
+
+.business-con p {
+    font-size: 1.3rem;
+}
+
 .build-img {
     display: flex;
     justify-content: center;
@@ -27,6 +35,19 @@
 
 .build-1 {
     margin-right: 200px;
+}
+
+.build-1 h5 {
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.build-1 h1 {
+    font-size: 2.5rem;
+}
+
+.build-1 p {
+    font-size: 1.3rem;
 }
 
 .build-2 {

@@ -12,7 +12,7 @@ function Contact() {
 
       <div className="business-con">
         <h1>BUSINESS TO BUSINESS</h1>
-        <p>We are specialists in both economics and information technologies and we apply our full range of talent to creating the perfect solution for each client’s needs</p>
+        <p>We are specialists in both economics and information technologies and we apply our full range of talent to <br/>creating the perfect solution for each client’s needs</p>
       </div>
 
       <div className="build-img">
