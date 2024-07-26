@@ -216,7 +216,7 @@ hr{
 
 .loc-footer ul li{
   list-style: none;
-  line-height: 50px;
+  line-height: 20px;
   color: orangered;
 }
 
@@ -395,7 +395,7 @@ hr{
   }
   .outline{
     width: 25%;
-    height:380vh;
+    height:300vh;
     background-color: black;    
   }
   
