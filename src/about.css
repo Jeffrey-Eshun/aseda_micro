@@ -150,7 +150,7 @@ gap: 10px;
     }
 
     .h1 {
-        top: 200px;
+        top: 400px;
         left: 50%;
         transform: translateX(-50%);
         font-size: 1.5rem;
@@ -167,7 +167,7 @@ gap: 10px;
     }
 
     .text .cooperate img {
-        width: 350px;
+        width: 100%;
         height: 350px;
         border-radius: 20px;
     }
@@ -196,11 +196,147 @@ gap: 10px;
     }
 
     .client-2 {
-        /* grid-template-columns: 400px; */
-        /* gap: 25px; */
-        display: none;
+        grid-template-columns: 400px;
+        gap: 25px;
+        margin-left: 0;
+        height: auto;
     
     }
 
 
+}
+
+ @media screen and (max-width: 480px) {
+    .h1 {
+        top: 230px;
+    }
+
+    .fine, .work h1, .team h1, .client-1 h1 {
+        font-size: 1.5rem;
+    }
+
+    .sum, .work p, .team p, .client-1 p {
+        font-size: 0.9rem;
+    }
+
+    .text {
+        margin-top: 20px;
+    }
+
+    .text-2 {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .text .cooperate img, .squad .diff {
+        width: 100%;
+        height: auto;
+    }
+
+    .work, .team, .clients {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .client-2 {
+        grid-template-columns: 1fr;
+        height: auto;
+        margin-left: 0;
+    }
+}
+
+@media screen and  (max-width: 360px) {
+    .h1 {
+        top: 80px;
+        font-size: 1.2rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .fine, .work h1, .team h1, .client-1 h1 {
+        font-size: 1.2rem;
+    }
+
+    .sum, .work p, .team p, .client-1 p {
+        font-size: 0.8rem;
+    }
+
+    .text {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-2 {
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .text .cooperate img, .squad .diff {
+        width: 100%;
+        height: auto;
+    }
+
+    .work, .team, .clients {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .client-2 {
+        grid-template-columns: 1fr;
+        height: auto;
+        margin-left: 0;
+        gap: 10px;
+    }
+
+    .client-2 .cli img {
+        width: 100%;
+        height: auto;
+    }
+} 
+
+
+@media (min-width: 769px ) and (max-width: 1200px) {
+    .h1 {
+        left: 400px;
+        top: 500px;
+        transform: translateX(-50%);
+    }
+
+    .text {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .text-2 {
+        margin-right: 50px;
+    }
+
+    .text .cooperate img {
+        width: 100%;
+        height: auto;
+    }
+
+    .work, .team {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .team-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .clients {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 100px; */
+    }
+
+    .client-2 {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 0;
+        height: auto;
+    }
 }
