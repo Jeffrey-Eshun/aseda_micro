@@ -10,7 +10,6 @@ const Navbar =()=>{
         <li><NavLink to='/' activeClass="active">HOME</NavLink></li>
         <li><NavLink to="/about">ABOUT</NavLink></li>
         <li><NavLink to='/contact'>CONTACT</NavLink></li>
-        <li><Link to='/join'>JOIN</Link></li>
       </ul>
     </div>
 
