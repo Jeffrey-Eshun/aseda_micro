@@ -4,8 +4,6 @@ import App from '../App';
 import Home from '../Pages/HomePage';
 import About from '../Pages/AboutPage';
 import Contact from '../Pages/Contact';
-import Join from '../Pages/Join';
-
 const AppRouter = createBrowserRouter([
     {
         path: '/',
@@ -27,10 +25,6 @@ const AppRouter = createBrowserRouter([
             element: <Contact />,
          },
          
-         {
-            path: '/join',
-            element: <Join />,
-         },
          
         ],
     },
