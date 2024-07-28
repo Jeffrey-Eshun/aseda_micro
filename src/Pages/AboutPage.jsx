@@ -19,16 +19,16 @@ function AboutPage() {
 
         <div className="text-2">
         <h2 className="fine">
-          Financial literacy is the key <br /> to improved financial <br />
+          Financial literacy is the key to improved financial
           success.
         </h2>
         <p className="sum">
-          Whether you have individual or business finance needs,<br/> we seek
-          opportunities to nourish and add value. We help you to<br/> achieve your
-          financing requirements by drawing on a depth<br/> of experience across
-          commercial, residential and business<br/> lending. <br/><br/>Above all, we believe
-          financial literacy and education are<br/> essential and aim to connect you
-          with the best information<br/> to make informed decisions when transacting
+          Whether you have individual or business finance needs,we seek
+          opportunities to nourish and add value. We help you toachieve your
+          financing requirements by drawing on a depthof experience across
+          commercial, residential and business lending. Above all, we believe
+          financial literacy and education are essential and aim to connect you
+          with the best information to make informed decisions when transacting
           with us
         </p>
        

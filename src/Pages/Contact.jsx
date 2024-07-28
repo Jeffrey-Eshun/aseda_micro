@@ -19,7 +19,7 @@ function Contact() {
         <div className="build-1">
           <h5>contact us</h5>
           <h1>Get in touch with us</h1>
-          <p>If you’d like to know more about how we can help you plan,<br/> schedule, and manage your time more effectively on every<br/> development project, simply fill out the form to get in touch<br/> with one of our experts.</p>
+          <p>If you’d like to know more about how we can help you plan, schedule, and manage your time more effectively on every development project, simply fill out the form to get in touch with one of our experts.</p>
         </div>
         <div className="build-2">
           <form action="active">
