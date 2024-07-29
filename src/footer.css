@@ -1,0 +1,73 @@
+.last-footer{
+    width: 100%;
+    height: 50vh;
+    break-inside: avoid;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(public/asedabackgroud.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .cont-footer{
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cont-footer ul li ,a{
+    list-style: none;
+    text-decoration: none;
+    color: orangered;
+  
+  }
+  
+  
+  .loc-footer{
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .loc-footer ul li{
+    list-style: none;
+    line-height: 20px;
+    color: orangered;
+  }
+  
+  .aseda-footer{
+    width: 35%;
+    height: 40vh;
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+  
+  .aseda-footer img{
+    width: 100%;
+    height: 40vh;
+  }
+
+  @media (max-width: 768px) {
+    .last-footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .cont-footer, .loc-footer, .aseda-footer {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .aseda-footer img {
+        height: auto;
+    }
+}
+
