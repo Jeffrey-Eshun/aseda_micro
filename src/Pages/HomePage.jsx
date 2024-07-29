@@ -12,7 +12,7 @@ const HomePage=()=> {
                   <p>Aseda Bank reported a robust financial performance this quarter, with a 15% increase in net income, driven by strong loan growth and improved asset quality. Customer deposits rose by 10%, reflecting confidence in our services. The bank remains well-capitalized, maintaining a strong balance sheet and liquidity position.</p>
                 </div>
                 <div className="hm-btn">
-                  <Link to="/login"><button>Sign Up</button></Link>
+                  <Link to="/signup"><button>Sign Up</button></Link>
                   <Link to="/login"><button>Login</button></Link>
                 </div>
               </div>

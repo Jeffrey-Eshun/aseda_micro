@@ -189,7 +189,8 @@ hr{
   justify-content: center;
   align-items: center;
   background-image: url(public/asedabackgroud.jpg);
-  
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .cont-footer{

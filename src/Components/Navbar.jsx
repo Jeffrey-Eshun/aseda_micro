@@ -7,7 +7,7 @@ const Navbar =()=>{
     <>
     <div className="frst-nav">
       <ul>
-        <li><NavLink to='/' activeClass="active">HOME</NavLink></li>
+        <li><NavLink to='/' activeclass="active">HOME</NavLink></li>
         <li><NavLink to="/about">ABOUT</NavLink></li>
         <li><NavLink to='/contact'>CONTACT</NavLink></li>
       </ul>

@@ -15,7 +15,7 @@ function AboutPage() {
         <h1 className="h1">About Us</h1>
       </div>
 
-      <div className="text">
+      <div className="texts">
 
         <div className="text-2">
         <h2 className="fine">
