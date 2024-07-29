@@ -80,12 +80,13 @@ const HomePage=()=> {
       <div className="contain-text">
         <p> 
 
-            Aseda Bank is a leading financial institution committed to providing exceptional banking services to individuals, businesses, and communities. Established over a century ago, Aseda Bank has grown into a trusted name, known for its customer-centric approach and innovative solutions. We offer a comprehensive range of financial products, including savings and checking accounts, personal and business loans, mortgages, and investment services.
+            Aseda  Microfinance is a leading financial institution committed to providing exceptional banking services to individuals, businesses, and communities. Established over a century ago, Aseda Bank has grown into a trusted name, known for its customer-centric approach and innovative solutions. We offer a comprehensive range of financial products, including savings and checking accounts, personal and business loans, mortgages, and investment services.
 
             Our advanced digital banking platform ensures seamless and secure access to your finances anytime, anywhere. At Aseda Bank, we prioritize customer satisfaction, tailoring our services to meet your unique needs. Our team of experienced professionals is dedicated to guiding you through every financial decision with expert advice and personalized support.
 
             With a strong focus on community development, we actively participate in initiatives that promote economic growth and social well-being. Choose Aseda Bank for a partner who values your financial success and works tirelessly to help you achieve your goals.
         </p>
+        <br />
       </div>
       <div className="grid-mission">
             <div className="grid-miss">
@@ -129,7 +130,7 @@ const HomePage=()=> {
                         <h3>DATA</h3>
                    </div>
                    <div className="txt-1">
-                    <p>Aseda Bank's quarterly data shows growth in loans and deposits.</p>
+                    <p>Aseda Microfinance quarterly data shows growth in loans and deposits.</p>
                    </div>
             </div>
             <div className="grid-miss">
@@ -138,7 +139,7 @@ const HomePage=()=> {
                         <h3>STATISTICS</h3>
                    </div>
                    <div className="txt-1">
-                    <p>Aseda Bank's assets increased 12%, with a 5% loan growth.</p>
+                    <p>Aseda  Microfinance assets increased 12%, with a 5% loan growth.</p>
                    </div>
             </div>
             <div className="grid-miss">

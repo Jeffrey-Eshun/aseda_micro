@@ -305,7 +305,7 @@ hr{
     width: 100%;
     height: 65vh;
     position: absolute;
-    top: 20%;
+    top: 30%;
     left: 0;
   }
   
@@ -321,7 +321,7 @@ hr{
     float: right;
   }
   .contain-text >p{
-    margin: 10px;
+    margin: 0.2px;
   }
   
   hr{
@@ -331,7 +331,7 @@ hr{
   .grid-mission{
     float: right;
     display: grid;
-    grid-template-columns: 115px 115px 115px;
+    grid-template-columns: 105px 115px 115px;
     grid-template-rows: 200px 200px 200px;
     grid-auto-rows: 100px;
     gap: 10px;
@@ -351,7 +351,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 40px;
+    margin-left: 60px;
   }
   .image-hold img{
     display: flex;
@@ -369,6 +369,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items:center;
+    margin-left: 108px;
   }
   .txt-1 p{
     display: none;
@@ -492,10 +493,10 @@ hr{
   .grid-mission{
     float: right;
     display: grid;
-    grid-template-columns: 230px 230px 230px;
-    grid-template-rows: 330px 330px ;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 340px 340px ;
     grid-auto-rows: 200px;
-    gap: 40px;
+    gap: 35px;
     padding:90px 90px 90px 90px;
     margin: 0;
     

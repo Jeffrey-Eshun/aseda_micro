@@ -1,18 +1,30 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Link, NavLink} from "react-router-dom"
 
 const Navbar =()=>{
+  const [isOpen , setIsOpen]=useState(false);
+  
+  const toggleMenu =()=>{
+    setIsOpen(!isOpen);
+  };
 
   return(
+   
     <>
-    <div className="frst-nav">
-      <ul>
-        <li><NavLink to='/' activeClass="active">HOME</NavLink></li>
-        <li><NavLink to="/about">ABOUT</NavLink></li>
-        <li><NavLink to='/contact'>CONTACT</NavLink></li>
-      </ul>
+    <div className="navbar">
+        <div className="frst-nav">
+          <ul className={isOpen ? "nav-links open":"nav-links"}>
+            <li><NavLink to='/' activeClass="active">HOME</NavLink></li>
+            <li><NavLink to="/about">ABOUT</NavLink></li>
+            <li><NavLink to='/contact'>CONTACT</NavLink></li>
+          </ul>
+        </div>
+        <div className="hamburger" onClick={toggleMenu}>
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
     </div>
-
     <div className="img-acc-loc-cont">
       <div className="logo-image">
         <img src="src/img/Aseda_Micro.png" alt="IMAGE" />
