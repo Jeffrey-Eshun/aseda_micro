@@ -5,6 +5,7 @@ import './navbar.css';
 import './index.css'
 import './about.css'
 import './contact.css'
+import './signup.css'
 import Footer from './Components/Footer';
 
 function App() {

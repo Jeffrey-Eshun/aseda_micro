@@ -5,6 +5,8 @@ import Home from '../Pages/HomePage';
 import About from '../Pages/AboutPage';
 import Contact from '../Pages/Contact';
 import Join from '../Pages/Join';
+import Signup from "../Pages/Signup"
+import Login from '../Pages/Login';
 
 const AppRouter = createBrowserRouter([
     {
@@ -30,6 +32,15 @@ const AppRouter = createBrowserRouter([
          {
             path: '/join',
             element: <Join />,
+         },
+         {
+            path: 'login',
+            element: <Login />,
+         },
+
+         {
+            path: 'signup',
+            element: <Signup />,
          },
          
         ],
