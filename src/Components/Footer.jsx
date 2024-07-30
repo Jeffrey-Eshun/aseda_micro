@@ -1,3 +1,4 @@
+import mainimage from "aseda_micro/public/ASEDA MICROFINANCE.png"
 const Footer =()=>{
   return(
     <>
@@ -20,7 +21,7 @@ const Footer =()=>{
               </ul>
             </div>
             <div className="aseda-footer">
-              <img src="public/ASEDA MICROFINANCE.png" alt="" />
+              <img src={mainimage} alt="" />
             </div>
         </div>
     </>

@@ -1,5 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from "aseda_micro/public/aseda logo.jpg"
+import backimage from "aseda_micro/public/asedabackgroud.jpg"
+import data from "aseda_micro/public/download (1).jpg"
+import dollar from "aseda_micro/public/download (2).jpg"
+import personnel from "aseda_micro/public/download.jpg"
+import tax from "aseda_micro/public/images (1).jpg"
+import bank from "aseda_micro/public/images (1).png"
+import statistic from "aseda_micro/public/images (2).jpg"
+import mobile from "aseda_micro/public/images (3).jpg"
+import coins from "aseda_micro/public/images (4).jpg"
+import dist from "aseda_micro/public/images.jpg"
+import mainimage from "aseda_micro/public/ASEDA MICROFINANCE.png"
 
 const HomePage=()=> {
   return (
@@ -74,7 +86,7 @@ const HomePage=()=> {
               </div>
             </div>
                <div className="picture">
-                <img src="public/ASEDA MICROFINANCE.png" alt="Image" />
+                <img src={mainimage} alt="Image" />
                </div>     
       </div>
       <div className="contain-text">
@@ -89,7 +101,7 @@ const HomePage=()=> {
       </div>
       <div className="grid-mission">
             <div className="grid-miss">
-                    <div className="image-hold"><img src="public/download (2).jpg" alt="IMAGE" />  </div>  
+                    <div className="image-hold"><img src={dollar} alt="IMAGE" />  </div>  
                     <div className="txt">
                         <h3>DOLLAR RATING</h3>
                    </div>
@@ -99,7 +111,7 @@ const HomePage=()=> {
             </div>
            
             <div className="grid-miss">
-            <div className="image-hold"><img src="public/download.jpg" alt="IMAGE" />  </div>  
+            <div className="image-hold"><img src={personnel} alt="IMAGE" />  </div>  
                     <div className="txt">
                         <h3>PERSONAL APTITUDE</h3>
                    </div>
@@ -108,7 +120,7 @@ const HomePage=()=> {
                    </div>
             </div>
             <div className="grid-miss">
-            <div className="image-hold"><img src="public/images (1).jpg" alt="IMAGE" />  </div>  
+            <div className="image-hold"><img src={tax} alt="IMAGE" />  </div>  
                     <div className="txt">
                         <h3>TAXES</h3>
                    </div>
@@ -116,7 +128,7 @@ const HomePage=()=> {
                     <p>Taxes: vast landscapes, diverse culture, booming economy, rich history, southern hospitality.</p>
                    </div>
             </div>
-            <div className="grid-miss">   <div className="image-hold"><img src="public/images (1).png" alt="IMAGE" />  </div>  
+            <div className="grid-miss">   <div className="image-hold"><img src={bank} alt="IMAGE" />  </div>  
                     <div className="txt">
                         <h3>BANK REGULATION</h3>
                    </div>
@@ -124,7 +136,7 @@ const HomePage=()=> {
                     <p>Bank regulation ensures stability, consumer protection, and prevents financial crises.</p>
                    </div>
             </div>
-            <div className="grid-miss">   <div className="image-hold"><img src="public/images.jpg" alt="IMAGE" />  </div>  
+            <div className="grid-miss">   <div className="image-hold"><img src={data} alt="IMAGE" />  </div>  
                     <div className="txt">
                         <h3>DATA</h3>
                    </div>
@@ -133,7 +145,7 @@ const HomePage=()=> {
                    </div>
             </div>
             <div className="grid-miss">
-                 <div className="image-hold"><img src="public/images (2).jpg" alt="IMAGE" />  </div>  
+                 <div className="image-hold"><img src={statistic} alt="IMAGE" />  </div>  
                     <div className="txt">
                         <h3>STATISTICS</h3>
                    </div>
@@ -142,7 +154,7 @@ const HomePage=()=> {
                    </div>
             </div>
             <div className="grid-miss">
-                 <div className="image-hold"><img src="public/images (3).jpg" alt="IMAGE" />  </div>  
+                 <div className="image-hold"><img src={mobile} alt="IMAGE" />  </div>  
                     <div className="txt">
                         <h3>MOBILE APP SERVICE</h3>
                    </div>
@@ -151,7 +163,7 @@ const HomePage=()=> {
                    </div>
             </div>
             <div className="grid-miss">
-                 <div className="image-hold"><img src="public/images (4).jpg" alt="IMAGE" />  </div>  
+                 <div className="image-hold"><img src={coins} alt="IMAGE" />  </div>  
                     <div className="txt">
                         <h3>COIN</h3>
                    </div>
@@ -160,7 +172,7 @@ const HomePage=()=> {
                    </div>
             </div>
             <div className="grid-miss">
-                 <div className="image-hold"><img src="public/download (1).jpg" alt="IMAGE" />  </div>  
+                 <div className="image-hold"><img src={dist} alt="IMAGE" />  </div>  
                     <div className="txt">
                         <h3>DISTRIBUTION</h3>
                    </div>

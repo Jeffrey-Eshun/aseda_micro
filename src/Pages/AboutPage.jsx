@@ -6,7 +6,10 @@ import Girls from "../img/girls.jpg"
 import Photo from "../img/photography.jpg"
 import Old from "../img/senior.jpg"
 import Color from "../img/colours.jpg"
-
+import rafik from "aseda_micro/public/rafik.jpg"
+import calvin from "aseda-micro/public/calvin.jpg"
+import shika from "aseda_micro/public/shika.jpg"
+import joojo from "aseda_micro/public/joojo.jpg"
 function AboutPage() {
   return (
     <div className="about">
@@ -52,22 +55,22 @@ function AboutPage() {
 
       <div className="team-2">
         <div className="squad">
-          <img src="public/calvin.jpg " alt="diff" className="diff" />
+          <img src={calvin} alt="diff" className="diff" />
           <figcaption><h2>Calvin Williamson Eshun</h2></figcaption>
           <p>CEO of Aseda Microfinance</p>
         </div>
         <div className="squad">
-          <img src="public/shika.jpg" alt="diff" className="diff" />
+          <img src={shika} alt="diff" className="diff" />
           <figcaption><h2>Ruth Akushika Zigah </h2></figcaption>
           <p>Branch Manager</p>
         </div>
         <div className="squad">
-          <img src="public/joojo.jpg" alt="diff" className="diff" />
+          <img src={joojo} alt="diff" className="diff" />
           <figcaption><h2>Jeffrey Jojo Eshun</h2></figcaption>
           <p>Shareholder</p>
         </div>
         <div className="squad">
-          <img src={Color} alt="diff" className="diff" />
+          <img src={rafik} alt="diff" className="diff" />
           <figcaption><h2>Rafik Conway</h2></figcaption>
           <p>Board Director</p>
         </div>
