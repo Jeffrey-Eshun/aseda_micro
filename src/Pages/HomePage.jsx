@@ -113,7 +113,7 @@ const HomePage=()=> {
                         <h3>TAXES</h3>
                    </div>
                    <div className="txt-1">
-                    <p>Texas: vast landscapes, diverse culture, booming economy, rich history, southern hospitality.</p>
+                    <p>Taxes: vast landscapes, diverse culture, booming economy, rich history, southern hospitality.</p>
                    </div>
             </div>
             <div className="grid-miss">   <div className="image-hold"><img src="public/images (1).png" alt="IMAGE" />  </div>  

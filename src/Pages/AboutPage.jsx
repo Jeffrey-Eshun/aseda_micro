@@ -24,7 +24,7 @@ function AboutPage() {
         </h2>
         <p className="sum">
           Whether you have individual or business finance needs,we seek
-          opportunities to nourish and add value. We help you toachieve your
+          opportunities to nourish and add value. We help you to achieve your
           financing requirements by drawing on a depthof experience across
           commercial, residential and business lending. Above all, we believe
           financial literacy and education are essential and aim to connect you
@@ -58,7 +58,7 @@ function AboutPage() {
         </div>
         <div className="squad">
           <img src="public/shika.jpg" alt="diff" className="diff" />
-          <figcaption><h2>Ruth A. Shika</h2></figcaption>
+          <figcaption><h2>Ruth Akushika Zigah </h2></figcaption>
           <p>Branch Manager</p>
         </div>
         <div className="squad">
