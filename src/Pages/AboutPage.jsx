@@ -67,7 +67,7 @@ function AboutPage() {
           <p>Shareholder</p>
         </div>
         <div className="squad">
-          <img src="public/rafik.jpg" alt="diff" className="diff" />
+          <img src={Color} alt="diff" className="diff" />
           <figcaption><h2>Rafik Conway</h2></figcaption>
           <p>Board Director</p>
         </div>
